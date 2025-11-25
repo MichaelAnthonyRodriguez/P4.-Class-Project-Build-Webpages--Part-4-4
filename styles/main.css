@@ -1,1 +1,39 @@
 /* DEVELOPER: Michael Anthony Rodriguez, IS117-001, Fall 2025 */
+
+.site-footer {
+    background-color: var(--qf-primary);
+    color: #f1f1f1;
+    padding: 1.25rem 0;
+    margin-top: 3rem;
+}
+
+.site-footer a {
+    color: #f5c249;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+    color: #ffe39a;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p.lead {
+        font-size: 1rem;
+    }
+
+    .float-image {
+        float: none;
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+}
