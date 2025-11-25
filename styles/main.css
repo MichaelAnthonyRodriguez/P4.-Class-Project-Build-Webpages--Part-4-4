@@ -1,5 +1,36 @@
 /* DEVELOPER: Michael Anthony Rodriguez, IS117-001, Fall 2025 */
 
+/* CSS custom properties for theme */
+:root {
+    --qf-primary: #451b1b;
+    --qf-secondary: #f58e49;
+    --qf-bg-light: #f7f7fa;
+    --qf-text-dark: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base typography */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--qf-text-dark);
+    background-color: var(--qf-bg-light);
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+/* Footer */
 .site-footer {
     background-color: var(--qf-primary);
     color: #f1f1f1;
@@ -15,6 +46,14 @@
 .site-footer a:hover {
     text-decoration: underline;
     color: #ffe39a;
+}
+
+/* Interior page headers */
+.page-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
