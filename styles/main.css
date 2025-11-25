@@ -30,6 +30,49 @@ body {
 .navbar-nav .nav-link {
     font-weight: 500;
 }
+
+/* Hero section (home only) */
+.hero {
+    background: linear-gradient(to right, rgba(69, 27, 27, 0.95), rgba(69, 27, 27, 0.7)),
+                url("../images/hero-movies.jpg") center/cover no-repeat;
+    color: white;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero p.lead {
+    font-size: 1.1rem;
+}
+
+/* Card area spacing */
+.section-padding {
+    padding: 3rem 0;
+}
+
+/* Float example (wrap text around image) */
+.float-image {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    max-width: 220px;
+    border-radius: 0.5rem;
+}
+
+/* Watchlist table */
+.watchlist-table th,
+.watchlist-table td {
+    vertical-align: middle;
+}
+
+/* Contact form layout */
+.contact-card {
+    max-width: 700px;
+    margin: 2rem auto;
+}
+
 /* Footer */
 .site-footer {
     background-color: var(--qf-primary);

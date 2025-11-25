@@ -49,6 +49,67 @@
     </div>
   </nav>
 
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="h3 mb-2">Watchlist</h1>
+      <p>
+        Use this page to keep track of movies and shows you want to watch later.
+        In a real version, each row could be added from Search or QuickSearch.
+      </p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="pb-4">
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table table-striped align-middle watchlist-table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Title</th>
+              <th scope="col">Type</th>
+              <th scope="col">Mood / Notes</th>
+              <th scope="col" class="text-center">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Galaxy Adventures</td>
+              <td>Movie</td>
+              <td>For when I want sci-fi with action but not too serious.</td>
+              <td class="text-center">
+                <span class="badge bg-secondary">Not watched</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Campus Nights</td>
+              <td>Show</td>
+              <td>Chill comedy to put on in the background while studying.</td>
+              <td class="text-center">
+                <span class="badge bg-success">In progress</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Hidden Playlist</td>
+              <td>Movie</td>
+              <td>Music-focused drama to watch on a weekend night.</td>
+              <td class="text-center">
+                <span class="badge bg-secondary">Not watched</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="h5 mt-4">How the Watchlist fits into the site</h2>
+      <ul class="content-list">
+        <li>Titles can be added from the <strong>Search</strong> page or from <strong>QuickSearch</strong> suggestions.</li>
+        <li>Users can review the list when they are ready to watch something.</li>
+        <li>A future version could let users mark items as watched or remove them.</li>
+      </ul>
+    </div>
+  </main>
 
   <!-- FOOTER -->
   <footer class="site-footer">

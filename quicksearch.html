@@ -49,6 +49,78 @@
     </div>
   </nav>
 
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="h3 mb-2">QuickSearch</h1>
+      <p>
+        QuickSearch is a simple chat-style page where users can describe what they want to watch
+        in their own words. This version is a static mockup, but it shows what the experience
+        could look like.
+      </p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="pb-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card shadow-sm mb-3">
+            <div class="card-header">
+              <strong>QuickSearch Chat</strong>
+            </div>
+            <div class="card-body" style="min-height: 220px;">
+              <!-- Example chat bubbles -->
+              <div class="mb-3">
+                <div class="small text-muted">QuickSearch</div>
+                <div class="p-2 rounded bg-light border">
+                  Hello! What kind of movie are you feeling like watching?
+                </div>
+              </div>
+              <div class="mb-3 text-end">
+                <div class="small text-muted">You</div>
+                <div class="p-2 rounded bg-primary text-white d-inline-block">
+                  I want something funny and light with friends hanging out.
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="small text-muted">QuickSearch</div>
+                <div class="p-2 rounded bg-light border">
+                  Great choice. You might enjoy a college comedy or a slice-of-life
+                  story about roommates. Look for:
+                  <ul class="content-list mb-0">
+                    <li>Short episodes that are easy to binge.</li>
+                    <li>Comedy or “feel-good” tags.</li>
+                    <li>Shows centered around a friend group.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <form class="d-flex gap-2">
+                <label for="chatInput" class="visually-hidden">Type your message</label>
+                <input type="text" id="chatInput" class="form-control"
+                       placeholder="Describe the kind of movie you want to watch...">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+              <p class="small text-muted mt-2 mb-0">
+                This demo does not send real messages. It only shows what the interface
+                might look like.
+              </p>
+            </div>
+          </div>
+
+          <ul class="content-list">
+            <li>Users type in a natural sentence instead of choosing from long menus.</li>
+            <li>The system could match mood, genre, and tone to a list of titles.</li>
+            <li>Results could be connected to the Watchlist so users can save picks.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
 
   <!-- FOOTER -->
   <footer class="site-footer">
